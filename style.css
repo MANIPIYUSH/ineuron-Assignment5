@@ -1,0 +1,66 @@
+body{
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 900px 500px;
+
+ /* position: absolute;
+  height: 600px;width: 900px; */
+
+}
+.list{
+
+    display: flex;
+    list-style-type: none;
+    padding-left: 250px;
+    margin-top: -30px;
+} 
+.list-item{
+
+    padding-left: 25px;
+    color: white;
+}
+.button-small{
+    position: relative;
+    top: -35px;
+    color: white;
+    background-color: rgb(244, 127, 147);
+    border-radius: 10px;
+}
+.logoimg img{
+    /* background-size: 50px; */
+  width: 80px;
+  height: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+  border-right: 1px solid white;
+  
+ 
+  
+}
+.navbar{
+    position: absolute;
+    top: 0%; left:0%;
+  background-color: black;
+   height: 50px;width: 900px;
+}
+.hero h1{
+
+    position: absolute;
+    left: 260px;top: 120px;
+    font-weight: bold;
+    font-size: 40px;
+}
+p.hero-description{
+    position: absolute;
+    color: white;
+    left: 270px;top: 230px;
+}
+.button-large{
+    position: absolute;
+    color: white;
+    background-color: rgb(244, 118, 139);
+   left: 350px;top: 280px;
+   border-radius: 5px;
+   border-color: rgb(230, 134, 150);
+
+}
